@@ -1,0 +1,35 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.dungshang.TexasHoldem</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>TexasHoldem</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="dungshang@texasholdem.com" url="https://github.com/dungshang">DungShang</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    <h2>Texas Hold'em Poker - 德州扑克</h2>
+    <p>在 IntelliJ IDEA 中玩德州扑克！</p>
+    <ul>
+      <li>可视化牌桌界面，展示玩家手牌和公共牌</li>
+      <li>自定义机器人玩家数量（1-8个）和筹码</li>
+      <li>基于 GTO 策略的智能机器人，可调节松紧度（1-10）</li>
+    </ul>
+  ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Texas Hold'em"
+                    anchor="bottom"
+                    secondary="true"
+                    factoryClass="com.dungshang.texasholdem.ui.TexasHoldemToolWindowFactory"
+                    icon="AllIcons.Nodes.Favorite"/>
+    </extensions>
+</idea-plugin>
