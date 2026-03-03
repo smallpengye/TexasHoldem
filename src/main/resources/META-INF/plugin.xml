@@ -14,12 +14,14 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    <h2>Texas Hold'em Poker - 德州扑克</h2>
-    <p>在 IntelliJ IDEA 中玩德州扑克！</p>
+    <h2>Texas Hold'em Poker for IntelliJ IDEA</h2>
+    <p>Play Texas Hold'em Poker right inside your IDE! A fun and relaxing poker game plugin with smart AI opponents powered by GTO strategy.</p>
     <ul>
-      <li>可视化牌桌界面，展示玩家手牌和公共牌</li>
-      <li>自定义机器人玩家数量（1-8个）和筹码</li>
-      <li>基于 GTO 策略的智能机器人，可调节松紧度（1-10）</li>
+      <li>Visual poker table with player cards and community cards</li>
+      <li>Customizable bot players (1-8) with adjustable chips</li>
+      <li>GTO-based intelligent bots with configurable aggressiveness (1-10)</li>
+      <li>Side pot support for fair all-in scenarios</li>
+      <li>Bilingual support: English and Chinese</li>
     </ul>
   ]]></description>
 
