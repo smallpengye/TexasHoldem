@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.dungshang"
-version = "1.0"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -16,6 +16,7 @@ repositories {
 intellij {
     version.set("2022.2.5")
     type.set("IC") // Target IDE Platform
+    pluginName.set("TexasHoldem")
 
     plugins.set(listOf(/* Plugin Dependencies */))
 }
@@ -37,6 +38,12 @@ tasks {
     patchPluginXml {
         sinceBuild.set("222")
         untilBuild.set("")
+    }
+
+    // Disable SNAPSHOT suffix for release builds
+    buildPlugin {
+        archiveBaseName.set("TexasHoldem")
+        archiveVersion.set(project.version.toString())
     }
 
     signPlugin {
