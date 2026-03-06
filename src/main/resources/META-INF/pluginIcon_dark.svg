@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-    <!-- Vintage background -->
-    <rect x="2" y="2" width="36" height="36" fill="#8B4513" rx="4"/>
-    <rect x="3" y="3" width="34" height="34" fill="#D2B48C" rx="3"/>
+    <!-- Dark vintage background -->
+    <rect x="2" y="2" width="36" height="36" fill="#2C1810" rx="4"/>
+    <rect x="3" y="3" width="34" height="34" fill="#3D2817" rx="3"/>
 
-    <!-- Ornate border -->
-    <rect x="4" y="4" width="32" height="32" fill="none" stroke="#8B4513" stroke-width="0.5" rx="2"/>
+    <!-- Ornate border - enhanced for dark theme -->
+    <rect x="4" y="4" width="32" height="32" fill="none" stroke="#8B6914" stroke-width="0.5" rx="2"/>
 
-    <!-- Vintage playing cards -->
+    <!-- Vintage playing cards - dark theme -->
     <g>
         <!-- Card background with aged effect -->
-        <rect x="10" y="12" width="7" height="10" fill="#F5F5DC" stroke="#8B4513" stroke-width="0.4" rx="0.8"/>
-        <rect x="23" y="12" width="7" height="10" fill="#F5F5DC" stroke="#8B4513" stroke-width="0.4" rx="0.8"/>
+        <rect x="10" y="12" width="7" height="10" fill="#F0E68C" stroke="#8B6914" stroke-width="0.4" rx="0.8"/>
+        <rect x="23" y="12" width="7" height="10" fill="#F0E68C" stroke="#8B6914" stroke-width="0.4" rx="0.8"/>
 
         <!-- Card content -->
         <text x="13.5" y="18" font-family="serif" font-size="2" text-anchor="middle" fill="#8B0000">A</text>
@@ -22,10 +22,10 @@
         <path d="M26 19.5 C26 19.2 26.2 19 26.5 19 C26.8 19 27 19.2 27 19.5 C27 19.8 26.5 20.5 26.5 20.5 C26.5 20.5 26 19.8 26 19.5 Z" fill="#8B0000"/>
     </g>
 
-    <!-- Vintage poker chips -->
+    <!-- Vintage poker chips - enhanced for dark theme -->
     <g transform="translate(20,28)">
-        <circle cx="-3" cy="0" r="2" fill="#8B0000" stroke="#FFD700" stroke-width="0.3"/>
+        <circle cx="-3" cy="0" r="2" fill="#DC143C" stroke="#FFD700" stroke-width="0.3"/>
         <circle cx="0" cy="0" r="2" fill="#4169E1" stroke="#FFD700" stroke-width="0.3"/>
-        <circle cx="3" cy="0" r="2" fill="#228B22" stroke="#FFD700" stroke-width="0.3"/>
+        <circle cx="3" cy="0" r="2" fill="#32CD32" stroke="#FFD700" stroke-width="0.3"/>
     </g>
 </svg>
